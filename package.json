@@ -10,7 +10,8 @@
     "build": "tsc && cross-env NODE_ENV=\"production\" ts-node ./esbuild.ts",
     "dev:esbuild": "cross-env NODE_ENV=\"development\" ts-node ./esbuild.ts",
     "dev:electron": "wait-on dist/main.js dist/index.html && electronmon .",
-    "test": "jest"
+    "test": "jest",
+    "package": "ts-node ./builder.ts"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -23,6 +24,7 @@
     "@types/react-dom": "^18.0.10",
     "cross-env": "^7.0.3",
     "electron": "^22.1.0",
+    "electron-builder": "^23.6.0",
     "electron-reload": "^2.0.0-alpha.1",
     "electron-search-devtools": "^1.8.8",
     "electronmon": "^2.0.2",
@@ -43,5 +45,8 @@
     "jest": "^29.4.1",
     "jest-environment-jsdom": "^29.4.1",
     "ts-jest": "^29.0.5"
+  },
+  "overrides": {
+    "minimatch": "^3.0.5"
   }
 }
