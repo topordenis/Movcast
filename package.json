@@ -13,6 +13,11 @@
     "test": "jest",
     "package": "ts-node ./builder.ts"
   },
+  "electronmon": {
+    "patterns": [
+      "dist/**/*"
+    ]
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
