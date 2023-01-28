@@ -8,6 +8,12 @@ An [Electron](https://www.electronjs.org/) boilerplate with hot reloading for [R
 [![GitHub license](https://img.shields.io/github/license/sprout2000/electron-react-esbuild)](https://github.com/sprout2000/electron-react-esbuild/blob/main/LICENSE.md)
 [![GitHub stars](https://img.shields.io/github/stars/sprout2000/electron-react-esbuild)](https://github.com/sprout2000/electron-react-esbuild/stargazers)
 
+## :tada: Features
+
+- Supports hot reloading in both the main and renderer processes.
+- With sample scripts for [electron-builder](https://www.electron.build/).
+- In addition, sample icons for macOS and Windows are included.
+
 ## :green_book: Usage
 
 ```sh
