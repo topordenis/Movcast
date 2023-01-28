@@ -1,28 +1,15 @@
 import path from 'path';
-import { BrowserWindow, app, session } from 'electron';
-import { searchDevtools } from 'electron-search-devtools';
-
-const isDev = process.env.NODE_ENV === 'development';
-
-if (isDev) {
-  require('electron-reload')(__dirname, {
-    electron: path.resolve(
-      __dirname,
-      process.platform === 'win32'
-        ? '../node_modules/electron/dist/electron.exe'
-        : '../node_modules/.bin/electron'
-    ),
-  });
-}
+import { BrowserWindow, app } from 'electron';
 
 app.whenReady().then(() => {
-  new BrowserWindow().loadFile('dist/index.html');
+  const mainWindow = new BrowserWindow({
+    webPreferences: {
+      preload: path.resolve(__dirname, 'preload.js'),
+    },
+  });
 
-  if (isDev) {
-    searchDevtools('REACT').then((devtools) => {
-      session.defaultSession.loadExtension(devtools, { allowFileAccess: true });
-    });
-  }
+  mainWindow.loadFile('dist/index.html');
+  if (DEBUG) mainWindow.webContents.openDevTools({ mode: 'detach' });
 });
 
 app.once('window-all-closed', () => app.quit());

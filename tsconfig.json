@@ -2,13 +2,16 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
+    "moduleResolution": "Node",
     "esModuleInterop": true,
     "isolatedModules": true,
-    "moduleResolution": "Node",
+    "resolveJsonModule": true,
     "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx",
     "strict": true,
-    "jsx": "react-jsx"
+    "noEmit": true
   },
+  "include": ["src"],
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"

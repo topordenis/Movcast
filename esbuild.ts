@@ -1,37 +1,55 @@
-import { build } from 'esbuild';
+import type { BuildOptions } from 'esbuild';
+
+import { build, context } from 'esbuild';
 import { htmlPlugin } from '@craftamap/esbuild-plugin-html';
 
 const isDev = process.env.NODE_ENV === 'development';
 
-build({
-  entryPoints: ['src/main.ts', 'src/preload.ts'],
+const common: BuildOptions = {
+  outdir: 'dist',
   bundle: true,
-  platform: 'node',
-  outdir: './dist',
-  external: ['electron', 'electron-reload'],
-  watch: isDev,
   minify: !isDev,
   sourcemap: isDev,
-});
+  define: {
+    DEBUG: isDev ? 'true' : 'false',
+  },
+};
 
-build({
-  entryPoints: ['src/index.tsx'],
-  bundle: true,
-  metafile: true,
+const main: BuildOptions = {
+  ...common,
+  entryPoints: ['src/main.ts', 'src/preload.ts'],
+  platform: 'node',
+  external: ['electron'],
+};
+
+const renderer: BuildOptions = {
+  ...common,
+  entryPoints: ['src/web/index.tsx'],
   platform: 'browser',
-  outdir: './dist',
-  watch: isDev,
-  minify: !isDev,
-  sourcemap: isDev,
+  metafile: true,
   plugins: [
     htmlPlugin({
       files: [
         {
-          entryPoints: ['src/index.tsx'],
+          entryPoints: ['src/web/index.tsx'],
           filename: 'index.html',
-          htmlTemplate: 'src/index.html',
+          htmlTemplate: 'src/web/index.html',
         },
       ],
     }),
   ],
-});
+};
+
+const watch = async () => {
+  const mainCtx = await context({ ...main });
+  const rendererCtx = await context({ ...renderer });
+  await mainCtx.watch();
+  await rendererCtx.watch();
+};
+
+if (isDev) {
+  watch();
+} else {
+  build({ ...main });
+  build({ ...renderer });
+}
