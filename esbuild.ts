@@ -47,9 +47,9 @@ const watch = async () => {
   await rendererCtx.watch();
 };
 
-if (isDev) {
-  watch();
-} else {
+const prod = async () => {
   build({ ...main });
   build({ ...renderer });
-}
+};
+
+isDev ? watch() : prod();
