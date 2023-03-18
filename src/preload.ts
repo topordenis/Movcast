@@ -1,6 +1,6 @@
-import { contextBridge, ipcRenderer } from 'electron';
+import { contextBridge, ipcRenderer } from "electron";
 
-contextBridge.exposeInMainWorld('myAPI', {
+contextBridge.exposeInMainWorld("myAPI", {
   updateTitle: async (arg: number): Promise<void> =>
-    ipcRenderer.invoke('update-title', arg),
+    ipcRenderer.invoke("update-title", arg),
 });

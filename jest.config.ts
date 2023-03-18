@@ -1,13 +1,13 @@
-import { Config } from '@jest/types';
+import { Config } from "@jest/types";
 
 const config: Config.InitialOptions = {
-  preset: 'ts-jest',
-  testEnvironment: 'jsdom',
+  preset: "ts-jest",
+  testEnvironment: "jsdom",
   moduleNameMapper: {
-    '^.+\\.s?css$': '<rootDir>/src/web/__mocks__/assetMock.ts',
+    "^.+\\.s?css$": "<rootDir>/src/web/__mocks__/assetMock.ts",
   },
   collectCoverage: true,
-  coverageReporters: ['text'],
+  coverageReporters: ["text"],
 };
 
 export default config;
