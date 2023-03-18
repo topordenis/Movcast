@@ -1,12 +1,14 @@
 import type { BuildOptions } from "esbuild";
 
 import { build, context } from "esbuild";
+import { sassPlugin } from "esbuild-sass-plugin";
 import { htmlPlugin } from "@craftamap/esbuild-plugin-html";
 
 const isDev = process.env.NODE_ENV === "development";
 
 const common: BuildOptions = {
   outdir: "dist",
+  assetNames: "assets/[name]-[hash]",
   bundle: true,
   minify: !isDev,
   sourcemap: isDev,
@@ -27,7 +29,12 @@ const renderer: BuildOptions = {
   entryPoints: ["src/web/index.tsx"],
   platform: "browser",
   metafile: true,
+  loader: {
+    ".png": "file",
+    ".svg": "file",
+  },
   plugins: [
+    sassPlugin(),
     htmlPlugin({
       files: [
         {

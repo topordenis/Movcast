@@ -13,9 +13,10 @@ beforeAll(() => {
 test("render App component", async () => {
   render(<App />);
 
+  const button = screen.getByRole("button");
   const spy = jest.spyOn(window.myAPI, "updateTitle");
-  await userEvent.click(screen.getByRole("button", { name: "Count" }));
+  await userEvent.click(button);
 
   expect(spy).toHaveBeenCalled();
-  expect(screen.getByRole("heading")).toHaveTextContent("1");
+  expect(button).toHaveTextContent("count is 1");
 });
