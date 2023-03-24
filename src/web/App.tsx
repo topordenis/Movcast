@@ -16,12 +16,14 @@ export const App = () => {
       <div>
         <div
           className="external"
+          aria-label="esbuild-link"
           onClick={() => window.myAPI.openExternal("https://esbuild.github.io")}
         >
           <img src={esbuildLogo} className="logo" alt="esbuild logo" />
         </div>
         <div
           className="external"
+          aria-label="react-link"
           onClick={() => window.myAPI.openExternal("https://react.dev/")}
         >
           <img src={reactLogo} className="logo react" alt="React logo" />
