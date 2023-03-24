@@ -55,8 +55,8 @@ const watch = async () => {
 };
 
 const prod = async () => {
-  build({ ...main });
-  build({ ...renderer });
+  await build({ ...main });
+  await build({ ...renderer });
 };
 
 isDev ? watch() : prod();
