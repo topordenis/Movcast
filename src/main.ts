@@ -1,5 +1,5 @@
 import path from "path";
-import { BrowserWindow, app, ipcMain } from "electron";
+import { BrowserWindow, app, ipcMain, shell } from "electron";
 
 const createWindow = () => {
   const mainWindow = new BrowserWindow({
@@ -10,6 +10,10 @@ const createWindow = () => {
 
   ipcMain.handle("update-title", (_e, arg) => {
     mainWindow.setTitle(`Electron App: ${arg}`);
+  });
+
+  ipcMain.handle("open-external", async (_e, arg) => {
+    await shell.openExternal(arg);
   });
 
   mainWindow.loadFile("dist/index.html");

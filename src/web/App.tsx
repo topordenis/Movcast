@@ -14,12 +14,18 @@ export const App = () => {
   return (
     <div className="App">
       <div>
-        <a href="https://esbuild.github.io" target="_blank">
+        <div
+          className="external"
+          onClick={() => window.myAPI.openExternal("https://esbuild.github.io")}
+        >
           <img src={esbuildLogo} className="logo" alt="esbuild logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
+        </div>
+        <div
+          className="external"
+          onClick={() => window.myAPI.openExternal("https://react.dev/")}
+        >
           <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        </div>
       </div>
       <h1>esbuild + React</h1>
       <div className="card">
