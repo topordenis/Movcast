@@ -14,7 +14,7 @@ An [Electron](https://www.electronjs.org/) boilerplate with hot reloading for [R
 - With sample scripts for [electron-builder](https://www.electron.build/).
 - In addition, sample icons for macOS and Windows are included.
 
-<img width="640" alt="demo" src="https://user-images.githubusercontent.com/52094761/227476544-f7d876f1-95af-442a-9a7a-d711c2449eb7.png">
+<img width="640" alt="demo" src="https://user-images.githubusercontent.com/52094761/227704024-1669c5ff-f31d-45d4-aa5d-de277f005242.gif" />
 
 ## :green_book: Usage
 
