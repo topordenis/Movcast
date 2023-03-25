@@ -14,7 +14,7 @@
   text-align: center;
 
   .external {
-    display: inline;
+    display: inline-block;
     &:hover {
       cursor: pointer;
     }
