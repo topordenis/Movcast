@@ -2,11 +2,9 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "Node",
     "esModuleInterop": true,
     "isolatedModules": true,
-    "resolveJsonModule": true,
-    "lib": ["DOM", "ESNext"],
+    "moduleResolution": "Node",
     "jsx": "react-jsx",
     "strict": true,
     "noEmit": true
