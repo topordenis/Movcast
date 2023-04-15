@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import reactLogo from "./icons/react.svg";
 import esbuildLogo from "./icons/esbuild.svg";
+import electronLogo from "./icons/electron.svg";
 import "./App.scss";
 
 export const App = () => {
@@ -16,20 +17,26 @@ export const App = () => {
       <div>
         <div
           className="external"
+          aria-label="electron-link"
+          onClick={() =>
+            window.myAPI.openExternal("https://www.electronjs.org/")
+          }
+        >
+          <img
+            src={electronLogo}
+            className="logo electron"
+            alt="Electron logo"
+          />
+        </div>
+        <div
+          className="external"
           aria-label="esbuild-link"
           onClick={() => window.myAPI.openExternal("https://esbuild.github.io")}
         >
           <img src={esbuildLogo} className="logo" alt="esbuild logo" />
         </div>
-        <div
-          className="external"
-          aria-label="react-link"
-          onClick={() => window.myAPI.openExternal("https://react.dev/")}
-        >
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </div>
       </div>
-      <h1>esbuild + React</h1>
+      <h1>Electron + esbuild</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

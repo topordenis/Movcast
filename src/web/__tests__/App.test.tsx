@@ -26,6 +26,6 @@ test("render App component", async () => {
   await userEvent.click(screen.getByLabelText("esbuild-link"));
   expect(externalSpy).toHaveBeenCalledTimes(1);
 
-  await userEvent.click(screen.getByLabelText("react-link"));
+  await userEvent.click(screen.getByLabelText("electron-link"));
   expect(externalSpy).toHaveBeenCalledTimes(2);
 });
