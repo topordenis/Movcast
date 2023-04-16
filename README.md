@@ -6,6 +6,7 @@
 An [Electron](https://www.electronjs.org/) boilerplate with hot reloading for [React](https://reactjs.org/) and [TypeScript](https://www.typescriptlang.org/).
 
 [![GitHub license](https://img.shields.io/github/license/sprout2000/electron-react-esbuild)](https://github.com/sprout2000/electron-react-esbuild/blob/main/LICENSE.md)
+![jest](./coverage/badge.svg)
 [![GitHub stars](https://img.shields.io/github/stars/sprout2000/electron-react-esbuild)](https://github.com/sprout2000/electron-react-esbuild/stargazers)
 
 ## :tada: Features
