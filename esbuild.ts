@@ -40,7 +40,7 @@ const renderer: BuildOptions = {
         {
           entryPoints: ["src/web/index.tsx"],
           filename: "index.html",
-          htmlTemplate: "src/web/index.html",
+          htmlTemplate: "src/web/index.ejs",
         },
       ],
     }),
