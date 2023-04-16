@@ -7,7 +7,7 @@ const config: Config.InitialOptions = {
     "^.+\\.(s?css|svg)$": "<rootDir>/src/web/__mocks__/assetMock.ts",
   },
   collectCoverage: true,
-  coverageReporters: ["text"],
+  coverageReporters: ["text", "json-summary"],
 };
 
 export default config;
