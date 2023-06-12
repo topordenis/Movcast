@@ -1,0 +1,176 @@
+[000:00:00:00.419.143.600][2484][Info] About to reset the video context with the user configuration
+[000:00:00:00.419.230.200][2484][Info] About to stop and reset video
+[000:00:00:00.419.262.200][2484][Info] Video stopped and ready too init
+[000:00:00:00.421.195.500][2484][Info] ---------------------------------
+[000:00:00:00.421.304.500][2484][Info] Initializing D3D11...
+[000:00:00:00.421.353.900][2484][Info] Available Video Adapters: 
+[000:00:00:00.425.437.200][2484][Info] 	Adapter 0: NVIDIA GeForce GTX 960
+[000:00:00:00.425.501.000][2484][Info] 	  Dedicated VRAM: 2105147392
+[000:00:00:00.425.520.800][2484][Info] 	  Shared VRAM:    4267794432
+[000:00:00:00.425.540.200][2484][Info] 	  PCI ID:         10de:1401
+[000:00:00:00.426.025.700][2484][Info] 	  Driver Version: 26.21.14.3200
+[000:00:00:00.426.178.800][2484][Info] 	  output 0:
+[000:00:00:00.426.178.800][2484][Info] 	    name=PHL 223V5
+[000:00:00:00.426.178.800][2484][Info] 	    pos={0, 0}
+[000:00:00:00.426.178.800][2484][Info] 	    size={1920, 1080}
+[000:00:00:00.426.178.800][2484][Info] 	    attached=true
+[000:00:00:00.426.178.800][2484][Info] 	    refresh=60
+[000:00:00:00.426.178.800][2484][Info] 	    space=RGB_FULL_G22_NONE_P709
+[000:00:00:00.426.178.800][2484][Info] 	    sdr_white_nits=80
+[000:00:00:00.426.178.800][2484][Info] 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+[000:00:00:00.426.317.800][2484][Info] 	  output 1:
+[000:00:00:00.426.317.800][2484][Info] 	    name=ASUS MM19S
+[000:00:00:00.426.317.800][2484][Info] 	    pos={1920, 0}
+[000:00:00:00.426.317.800][2484][Info] 	    size={1280, 1024}
+[000:00:00:00.426.317.800][2484][Info] 	    attached=true
+[000:00:00:00.426.317.800][2484][Info] 	    refresh=75
+[000:00:00:00.426.317.800][2484][Info] 	    space=RGB_FULL_G22_NONE_P709
+[000:00:00:00.426.317.800][2484][Info] 	    sdr_white_nits=80
+[000:00:00:00.426.317.800][2484][Info] 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+[000:00:00:00.426.401.800][2484][Info] 	Adapter 1: NVIDIA GeForce GTX 960
+[000:00:00:00.426.409.100][2484][Info] 	  Dedicated VRAM: 2105147392
+[000:00:00:00.426.414.300][2484][Info] 	  Shared VRAM:    4267794432
+[000:00:00:00.426.419.300][2484][Info] 	  PCI ID:         10de:1401
+[000:00:00:00.426.610.300][2484][Info] 	  Driver Version: 26.21.14.3200
+[000:00:00:00.429.608.800][2484][Info] Loading up D3D11 on adapter NVIDIA GeForce GTX 960 (0)
+[000:00:00:00.481.211.800][2484][Info] D3D11 loaded successfully, feature level used: b000
+[000:00:00:00.481.262.200][2484][Info] DXGI increase maximum frame latency success
+[000:00:00:00.481.301.800][2484][Info] D3D11 GPU priority setup success
+[000:00:00:02.025.958.900][2484][Info] ---------------------------------
+[000:00:00:02.026.036.200][2484][Info] video settings reset:
+[000:00:00:02.026.036.200][2484][Info] 	base resolution:   1920x1080
+[000:00:00:02.026.036.200][2484][Info] 	output resolution: 1920x1080
+[000:00:00:02.026.036.200][2484][Info] 	downscale filter:  Bicubic
+[000:00:00:02.026.036.200][2484][Info] 	fps:               60/1
+[000:00:00:02.026.036.200][2484][Info] 	format:            NV12
+[000:00:00:02.026.036.200][2484][Info] 	YUV mode:          Rec. 709/Partial
+[000:00:00:02.026.351.200][2484][Info] NV12 texture support enabled
+[000:00:00:02.026.374.500][2484][Info] P010 texture support not available
+[000:00:00:02.028.948.700][2484][Info] NV12 texture support enabled
+[000:00:00:02.028.975.300][2484][Info] P010 texture support not available
+[000:00:00:02.030.954.500][2484][Info] NV12 texture support enabled
+[000:00:00:02.030.997.400][2484][Info] P010 texture support not available
+[000:00:00:02.033.127.100][2484][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+[000:00:00:02.035.644.300][2484][Warning] [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+[000:00:00:02.039.169.700][2484][Warning] A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+[000:00:00:02.039.257.300][2484][Warning] Failed to initialize module 'decklink.dll'
+[000:00:00:02.064.178.200][2484][Error] [AMF] Unable to load 'amfrt64.dll', error code 126.
+[000:00:00:02.066.423.600][2484][Error] [AMF] AMF Test failed due to one or more errors.
+[000:00:00:02.066.455.600][2484][Warning] Failed to initialize module 'enc-amf.dll'
+[000:00:00:02.068.376.300][2484][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/libcef.dll', not an OBS plugin
+[000:00:00:02.068.560.000][2484][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/libEGL.dll', not an OBS plugin
+[000:00:00:02.068.725.700][2484][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+[000:00:00:02.070.404.600][2484][Warning] Failed to load 'en-US' text for module: 'mediasoup-connector.dll'
+[000:00:00:02.070.849.900][2484][Warning] Failed to load 'en-US' text for module: 'motion-transition.dll'
+[000:00:00:02.081.962.300][2484][Info] [obs-browser]: Version 2.18.5
+[000:00:00:02.081.983.300][2484][Info] [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2591+g4204d54+chromium-103.0.5060.134 (compiled)
+[000:00:00:02.085.122.200][2484][Info] NVENC supported
+[000:00:00:02.086.417.400][2484][Info] [noise suppress]: NVIDIA RTX denoiser disabled, redistributable not found
+[000:00:00:02.087.647.200][2484][Info] [NVIDIA RTX VIDEO FX]: FX disabled, redistributable not found.
+[000:00:00:02.088.199.900][2484][Info] [obs-ndi] hello ! (version 4.7.1)
+[000:00:00:02.088.210.900][2484][Error] [obs-ndi] Error when loading the library.
+[000:00:00:02.088.218.600][2484][Warning] Failed to initialize module 'obs-ndi.dll'
+[000:00:00:02.305.946.100][2484][Info] [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+[000:00:00:02.319.680.500][2484][Info] ---------------------------------
+[000:00:00:02.319.708.100][2484][Info] audio settings reset:
+[000:00:00:02.319.708.100][2484][Info] 	samples per sec: 44100
+[000:00:00:02.319.708.100][2484][Info] 	speakers:        2
+[000:00:00:02.319.708.100][2484][Info] 	max buffering:   1044 milliseconds
+[000:00:00:02.319.708.100][2484][Info] 	buffering type:  dynamically increasing
+[000:00:00:02.322.827.300][2484][Info] About to reset the video context with the user configuration
+[000:00:00:02.322.895.700][2484][Info] About to stop and reset video
+[000:00:00:02.352.479.800][2484][Warning] 3 views remain at shutdown
+[000:00:00:02.352.703.500][2484][Info] Video stopped and ready too init
+[000:00:00:02.352.713.600][2484][Info] ---------------------------------
+[000:00:00:02.352.719.900][2484][Info] video settings reset:
+[000:00:00:02.352.719.900][2484][Info] 	base resolution:   1920x1080
+[000:00:00:02.352.719.900][2484][Info] 	output resolution: 1920x1080
+[000:00:00:02.352.719.900][2484][Info] 	downscale filter:  Bicubic
+[000:00:00:02.352.719.900][2484][Info] 	fps:               60/1
+[000:00:00:02.352.719.900][2484][Info] 	format:            NV12
+[000:00:00:02.352.719.900][2484][Info] 	YUV mode:          Rec. 709/Partial
+[000:00:00:02.352.835.300][2484][Info] NV12 texture support enabled
+[000:00:00:02.352.845.600][2484][Info] P010 texture support not available
+[000:00:00:02.353.736.500][2484][Info] NV12 texture support enabled
+[000:00:00:02.353.761.300][2484][Info] P010 texture support not available
+[000:00:00:02.354.277.500][2484][Info] NV12 texture support enabled
+[000:00:00:02.354.294.300][2484][Info] P010 texture support not available
+[000:00:00:02.355.443.300][2484][Info] Audio monitoring device:
+[000:00:00:02.355.443.300][2484][Info] 	name: Default
+[000:00:00:02.355.443.300][2484][Info] 	id: default
+[000:00:00:02.511.817.800][2484][Info] [duplicator-monitor-capture: 'desktop-video'] update settings:
+[000:00:00:02.511.817.800][2484][Info] 	display: 1 (1920x1080)
+[000:00:00:02.511.817.800][2484][Info] 	cursor: true
+[000:00:00:02.511.817.800][2484][Info] 	method: DXGI
+[000:00:00:02.523.442.300][8356][Info] [duplicator-monitor-capture: 'desktop-video'] update settings:
+[000:00:00:02.523.442.300][8356][Info] 	display: 1 (1920x1080)
+[000:00:00:02.523.442.300][8356][Info] 	cursor: true
+[000:00:00:02.523.442.300][8356][Info] 	method: DXGI
+[000:00:00:02.706.835.800][29012][Info] load_graphics_offsets: Failed to start 'get-graphics-offsets32.exe'
+[000:00:00:04.380.494.800][2484][Info] ---------------------------------
+[000:00:00:04.380.531.600][2484][Info] [x264 encoder: 'recording_h264'] preset: veryfast
+[000:00:00:04.410.036.700][2484][Info] [x264 encoder: 'recording_h264'] settings:
+[000:00:00:04.410.036.700][2484][Info] 	rate_control: CBR
+[000:00:00:04.410.036.700][2484][Info] 	bitrate:      2500
+[000:00:00:04.410.036.700][2484][Info] 	buffer size:  2500
+[000:00:00:04.410.036.700][2484][Info] 	crf:          23
+[000:00:00:04.410.036.700][2484][Info] 	fps_num:      60
+[000:00:00:04.410.036.700][2484][Info] 	fps_den:      1
+[000:00:00:04.410.036.700][2484][Info] 	width:        1920
+[000:00:00:04.410.036.700][2484][Info] 	height:       1080
+[000:00:00:04.410.036.700][2484][Info] 	keyint:       250
+[000:00:00:04.410.036.700][2484][Info] 
+[000:00:00:04.450.893.100][2484][Info] ---------------------------------
+[000:00:00:04.451.158.000][2484][Info] [FFmpeg aac encoder: 'adv_aac0'] bitrate: 160, channels: 2, channel_layout: 3
+[000:00:00:04.451.158.000][2484][Info] 
+[000:00:00:04.456.617.900][2484][Info] [ffmpeg muxer: 'simple_file_output'] Writing file 'C:\Users\adm\Videos\test/2023-06-11 22-30-09.mp4'...
+[000:00:00:18.030.892.700][12352][Info] [ffmpeg muxer: 'simple_file_output'] Output of file 'C:\Users\adm\Videos\test/2023-06-11 22-30-09.mp4' stopped
+[000:00:00:18.030.967.100][12352][Info] Output 'simple_file_output': stopping
+[000:00:00:18.030.975.900][12352][Info] Output 'simple_file_output': Total frames output: 775
+[000:00:00:18.030.983.700][12352][Info] Output 'simple_file_output': Total drawn frames: 814
+[000:00:00:46.902.776.100][2484][Info] ---------------------------------
+[000:00:00:46.902.809.100][2484][Info] [x264 encoder: 'recording_h264'] preset: veryfast
+[000:00:00:46.902.826.300][2484][Info] [x264 encoder: 'recording_h264'] settings:
+[000:00:00:46.902.826.300][2484][Info] 	rate_control: CBR
+[000:00:00:46.902.826.300][2484][Info] 	bitrate:      2500
+[000:00:00:46.902.826.300][2484][Info] 	buffer size:  2500
+[000:00:00:46.902.826.300][2484][Info] 	crf:          23
+[000:00:00:46.902.826.300][2484][Info] 	fps_num:      60
+[000:00:00:46.902.826.300][2484][Info] 	fps_den:      1
+[000:00:00:46.902.826.300][2484][Info] 	width:        1920
+[000:00:00:46.902.826.300][2484][Info] 	height:       1080
+[000:00:00:46.902.826.300][2484][Info] 	keyint:       250
+[000:00:00:46.902.826.300][2484][Info] 
+[000:00:00:46.907.582.900][2484][Info] ---------------------------------
+[000:00:00:46.907.837.900][2484][Info] [FFmpeg aac encoder: 'adv_aac0'] bitrate: 160, channels: 2, channel_layout: 3
+[000:00:00:46.907.837.900][2484][Info] 
+[000:00:00:46.914.349.400][2484][Info] [ffmpeg muxer: 'simple_file_output'] Writing file 'C:\Users\adm\Videos\test/2023-06-11 22-30-51.mp4'...
+[000:00:00:52.946.220.300][2200][Info] [ffmpeg muxer: 'simple_file_output'] Output of file 'C:\Users\adm\Videos\test/2023-06-11 22-30-51.mp4' stopped
+[000:00:00:52.946.297.400][2200][Info] Output 'simple_file_output': stopping
+[000:00:00:52.946.306.300][2200][Info] Output 'simple_file_output': Total frames output: 323
+[000:00:00:52.946.314.800][2200][Info] Output 'simple_file_output': Total drawn frames: 362
+[000:00:02:32.808.375.800][2484][Info] ---------------------------------
+[000:00:02:32.808.427.100][2484][Info] [x264 encoder: 'recording_h264'] preset: veryfast
+[000:00:02:32.808.454.400][2484][Info] [x264 encoder: 'recording_h264'] settings:
+[000:00:02:32.808.454.400][2484][Info] 	rate_control: CBR
+[000:00:02:32.808.454.400][2484][Info] 	bitrate:      2500
+[000:00:02:32.808.454.400][2484][Info] 	buffer size:  2500
+[000:00:02:32.808.454.400][2484][Info] 	crf:          23
+[000:00:02:32.808.454.400][2484][Info] 	fps_num:      60
+[000:00:02:32.808.454.400][2484][Info] 	fps_den:      1
+[000:00:02:32.808.454.400][2484][Info] 	width:        1920
+[000:00:02:32.808.454.400][2484][Info] 	height:       1080
+[000:00:02:32.808.454.400][2484][Info] 	keyint:       250
+[000:00:02:32.808.454.400][2484][Info] 
+[000:00:02:32.819.082.200][2484][Info] ---------------------------------
+[000:00:02:32.819.539.700][2484][Info] [FFmpeg aac encoder: 'adv_aac0'] bitrate: 160, channels: 2, channel_layout: 3
+[000:00:02:32.819.539.700][2484][Info] 
+[000:00:02:32.825.704.300][2484][Info] [ffmpeg muxer: 'simple_file_output'] Writing file 'C:\Users\adm\Videos\test/2023-06-11 22-32-37.mp4'...
+[000:00:02:38.921.358.600][2200][Info] [ffmpeg muxer: 'simple_file_output'] Output of file 'C:\Users\adm\Videos\test/2023-06-11 22-32-37.mp4' stopped
+[000:00:02:38.921.406.700][2200][Info] Output 'simple_file_output': stopping
+[000:00:02:38.921.415.400][2200][Info] Output 'simple_file_output': Total frames output: 325
+[000:00:02:38.921.422.800][2200][Info] Output 'simple_file_output': Total drawn frames: 365
+[000:00:16:22.282.861.100][2484][Error] IPC write to pipe failed with code 109
+[000:00:16:22.354.336.600][18996][Error] IPC write to pipe failed with code 232
+[000:00:16:27.640.379.100][3836][Info] Freeing OBS context data
+[000:00:16:27.640.451.400][3836][Warning] 3 views remain at shutdown

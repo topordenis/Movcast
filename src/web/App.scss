@@ -1,54 +1,38 @@
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html
+{
+    overflow: hidden;
 }
 
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body
+{
+    margin: 0;
+    box-sizing: border-box;
+}
 
-  .external {
-    display: inline-block;
-    &:hover {
-      cursor: pointer;
-    }
-
-    .logo {
-      height: 6em;
-      padding: 1.5em;
-      will-change: filter;
-      transition: filter 300ms;
-
-      &:hover {
-        filter: drop-shadow(0 0 2em #fcff99aa);
-      }
-
-      &.electron {
-        animation: logo-spin infinite 20s linear;
-
-        &:hover {
-          filter: drop-shadow(0 0 2em #61dafbaa);
-        }
-      }
-    }
-  }
-
-  .card {
-    padding: 2em;
-
-    code {
-      color: #62d5fa;
-      font-size: 1.5em;
-    }
-  }
-
-  .read-the-docs {
-    color: #888;
-  }
+html, body
+{
+    height: 100%;
+}
+.preview{
+  width: 70%;
+  height: 39.375%;
+   background-color: red;
+}
+.App{
+  width: 100%;
+  height: 100%;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+.btn{
+  margin-top: 10rem;
+  width: 10rem;
+  height: 2rem;
+  background: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: red;
 }

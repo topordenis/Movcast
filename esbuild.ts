@@ -3,6 +3,7 @@ import type { BuildOptions } from "esbuild";
 import { build, context } from "esbuild";
 import { sassPlugin } from "esbuild-sass-plugin";
 import { htmlPlugin } from "@craftamap/esbuild-plugin-html";
+import {nodeExternalsPlugin } from "esbuild-node-externals";
 
 const isDev = process.env.NODE_ENV === "development";
 
@@ -22,18 +23,21 @@ const main: BuildOptions = {
   entryPoints: ["src/main.ts", "src/preload.ts"],
   platform: "node",
   external: ["electron"],
+  plugins: [ nodeExternalsPlugin() ]
 };
 
 const renderer: BuildOptions = {
   ...common,
   entryPoints: ["src/web/index.tsx"],
-  platform: "browser",
+  platform: "node",
   metafile: true,
   loader: {
     ".png": "file",
     ".svg": "file",
+    ".node": "file"
   },
   plugins: [
+    nodeExternalsPlugin(),
     sassPlugin(),
     htmlPlugin({
       files: [

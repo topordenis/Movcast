@@ -1,0 +1,137 @@
+[000:00:00:00.415.723.200][29876][Info] About to reset the video context with the user configuration
+[000:00:00:00.415.800.500][29876][Info] About to stop and reset video
+[000:00:00:00.415.832.700][29876][Info] Video stopped and ready too init
+[000:00:00:00.417.450.300][29876][Info] ---------------------------------
+[000:00:00:00.417.512.500][29876][Info] Initializing D3D11...
+[000:00:00:00.417.542.800][29876][Info] Available Video Adapters: 
+[000:00:00:00.426.264.000][29876][Info] 	Adapter 0: NVIDIA GeForce GTX 960
+[000:00:00:00.426.383.100][29876][Info] 	  Dedicated VRAM: 2105147392
+[000:00:00:00.426.409.400][29876][Info] 	  Shared VRAM:    4267794432
+[000:00:00:00.426.428.000][29876][Info] 	  PCI ID:         10de:1401
+[000:00:00:00.427.030.500][29876][Info] 	  Driver Version: 26.21.14.3200
+[000:00:00:00.427.496.300][29876][Info] 	  output 0:
+[000:00:00:00.427.496.300][29876][Info] 	    name=PHL 223V5
+[000:00:00:00.427.496.300][29876][Info] 	    pos={0, 0}
+[000:00:00:00.427.496.300][29876][Info] 	    size={1920, 1080}
+[000:00:00:00.427.496.300][29876][Info] 	    attached=true
+[000:00:00:00.427.496.300][29876][Info] 	    refresh=60
+[000:00:00:00.427.496.300][29876][Info] 	    space=RGB_FULL_G22_NONE_P709
+[000:00:00:00.427.496.300][29876][Info] 	    sdr_white_nits=80
+[000:00:00:00.427.496.300][29876][Info] 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+[000:00:00:00.427.663.200][29876][Info] 	  output 1:
+[000:00:00:00.427.663.200][29876][Info] 	    name=ASUS MM19S
+[000:00:00:00.427.663.200][29876][Info] 	    pos={1920, 0}
+[000:00:00:00.427.663.200][29876][Info] 	    size={1280, 1024}
+[000:00:00:00.427.663.200][29876][Info] 	    attached=true
+[000:00:00:00.427.663.200][29876][Info] 	    refresh=75
+[000:00:00:00.427.663.200][29876][Info] 	    space=RGB_FULL_G22_NONE_P709
+[000:00:00:00.427.663.200][29876][Info] 	    sdr_white_nits=80
+[000:00:00:00.427.663.200][29876][Info] 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+[000:00:00:00.427.767.500][29876][Info] 	Adapter 1: NVIDIA GeForce GTX 960
+[000:00:00:00.427.774.700][29876][Info] 	  Dedicated VRAM: 2105147392
+[000:00:00:00.427.780.300][29876][Info] 	  Shared VRAM:    4267794432
+[000:00:00:00.427.785.700][29876][Info] 	  PCI ID:         10de:1401
+[000:00:00:00.427.988.100][29876][Info] 	  Driver Version: 26.21.14.3200
+[000:00:00:00.432.825.200][29876][Info] Loading up D3D11 on adapter NVIDIA GeForce GTX 960 (0)
+[000:00:00:00.490.258.300][29876][Info] D3D11 loaded successfully, feature level used: b000
+[000:00:00:00.490.309.800][29876][Info] DXGI increase maximum frame latency success
+[000:00:00:00.490.372.600][29876][Info] D3D11 GPU priority setup success
+[000:00:00:02.075.344.000][29876][Info] ---------------------------------
+[000:00:00:02.075.382.100][29876][Info] video settings reset:
+[000:00:00:02.075.382.100][29876][Info] 	base resolution:   1920x1080
+[000:00:00:02.075.382.100][29876][Info] 	output resolution: 1920x1080
+[000:00:00:02.075.382.100][29876][Info] 	downscale filter:  Bicubic
+[000:00:00:02.075.382.100][29876][Info] 	fps:               60/1
+[000:00:00:02.075.382.100][29876][Info] 	format:            NV12
+[000:00:00:02.075.382.100][29876][Info] 	YUV mode:          Rec. 709/Partial
+[000:00:00:02.075.565.100][29876][Info] NV12 texture support enabled
+[000:00:00:02.075.577.000][29876][Info] P010 texture support not available
+[000:00:00:02.077.767.300][29876][Info] NV12 texture support enabled
+[000:00:00:02.077.783.400][29876][Info] P010 texture support not available
+[000:00:00:02.079.475.500][29876][Info] NV12 texture support enabled
+[000:00:00:02.079.503.200][29876][Info] P010 texture support not available
+[000:00:00:02.081.563.200][29876][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+[000:00:00:02.083.917.500][29876][Warning] [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+[000:00:00:02.088.699.400][29876][Warning] A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+[000:00:00:02.088.775.400][29876][Warning] Failed to initialize module 'decklink.dll'
+[000:00:00:02.113.013.500][29876][Error] [AMF] Unable to load 'amfrt64.dll', error code 126.
+[000:00:00:02.114.921.000][29876][Error] [AMF] AMF Test failed due to one or more errors.
+[000:00:00:02.114.940.500][29876][Warning] Failed to initialize module 'enc-amf.dll'
+[000:00:00:02.116.204.100][29876][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/libcef.dll', not an OBS plugin
+[000:00:00:02.116.322.600][29876][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/libEGL.dll', not an OBS plugin
+[000:00:00:02.116.482.200][29876][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+[000:00:00:02.118.680.700][29876][Warning] Failed to load 'en-US' text for module: 'mediasoup-connector.dll'
+[000:00:00:02.119.604.900][29876][Warning] Failed to load 'en-US' text for module: 'motion-transition.dll'
+[000:00:00:02.130.084.000][29876][Info] [obs-browser]: Version 2.18.5
+[000:00:00:02.130.112.700][29876][Info] [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2591+g4204d54+chromium-103.0.5060.134 (compiled)
+[000:00:00:02.133.226.100][29876][Info] NVENC supported
+[000:00:00:02.135.162.200][29876][Info] [noise suppress]: NVIDIA RTX denoiser disabled, redistributable not found
+[000:00:00:02.136.767.200][29876][Info] [NVIDIA RTX VIDEO FX]: FX disabled, redistributable not found.
+[000:00:00:02.137.807.400][29876][Info] [obs-ndi] hello ! (version 4.7.1)
+[000:00:00:02.137.827.100][29876][Error] [obs-ndi] Error when loading the library.
+[000:00:00:02.137.835.400][29876][Warning] Failed to initialize module 'obs-ndi.dll'
+[000:00:00:02.380.893.300][29876][Info] [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+[000:00:00:02.396.468.800][29876][Info] ---------------------------------
+[000:00:00:02.396.492.000][29876][Info] audio settings reset:
+[000:00:00:02.396.492.000][29876][Info] 	samples per sec: 44100
+[000:00:00:02.396.492.000][29876][Info] 	speakers:        2
+[000:00:00:02.396.492.000][29876][Info] 	max buffering:   1044 milliseconds
+[000:00:00:02.396.492.000][29876][Info] 	buffering type:  dynamically increasing
+[000:00:00:02.398.964.700][29876][Info] About to reset the video context with the user configuration
+[000:00:00:02.399.019.800][29876][Info] About to stop and reset video
+[000:00:00:02.417.490.800][29876][Warning] 3 views remain at shutdown
+[000:00:00:02.418.120.300][29876][Info] Video stopped and ready too init
+[000:00:00:02.418.152.000][29876][Info] ---------------------------------
+[000:00:00:02.418.162.200][29876][Info] video settings reset:
+[000:00:00:02.418.162.200][29876][Info] 	base resolution:   1920x1080
+[000:00:00:02.418.162.200][29876][Info] 	output resolution: 1920x1080
+[000:00:00:02.418.162.200][29876][Info] 	downscale filter:  Bicubic
+[000:00:00:02.418.162.200][29876][Info] 	fps:               60/1
+[000:00:00:02.418.162.200][29876][Info] 	format:            NV12
+[000:00:00:02.418.162.200][29876][Info] 	YUV mode:          Rec. 709/Partial
+[000:00:00:02.418.379.900][29876][Info] NV12 texture support enabled
+[000:00:00:02.418.394.000][29876][Info] P010 texture support not available
+[000:00:00:02.419.757.800][29876][Info] NV12 texture support enabled
+[000:00:00:02.419.793.600][29876][Info] P010 texture support not available
+[000:00:00:02.420.320.400][29876][Info] NV12 texture support enabled
+[000:00:00:02.420.340.700][29876][Info] P010 texture support not available
+[000:00:00:02.421.525.800][29876][Info] Audio monitoring device:
+[000:00:00:02.421.525.800][29876][Info] 	name: Default
+[000:00:00:02.421.525.800][29876][Info] 	id: default
+[000:00:00:02.540.337.200][29876][Info] [duplicator-monitor-capture: 'desktop-video'] update settings:
+[000:00:00:02.540.337.200][29876][Info] 	display: 1 (1920x1080)
+[000:00:00:02.540.337.200][29876][Info] 	cursor: true
+[000:00:00:02.540.337.200][29876][Info] 	method: DXGI
+[000:00:00:02.556.214.900][15484][Info] [duplicator-monitor-capture: 'desktop-video'] update settings:
+[000:00:00:02.556.214.900][15484][Info] 	display: 1 (1920x1080)
+[000:00:00:02.556.214.900][15484][Info] 	cursor: true
+[000:00:00:02.556.214.900][15484][Info] 	method: DXGI
+[000:00:00:02.624.471.600][15484][Error] A sprite cannot be drawn without a width/height
+[000:00:00:02.772.298.700][17848][Info] load_graphics_offsets: Failed to start 'get-graphics-offsets32.exe'
+[000:00:00:05.138.867.800][29876][Info] ---------------------------------
+[000:00:00:05.138.935.500][29876][Info] [AV1 encoder: 'recording_h264'] settings:
+[000:00:00:05.138.935.500][29876][Info] 	encoder:      AOM AV1
+[000:00:00:05.138.935.500][29876][Info] 	rate_control: CBR
+[000:00:00:05.138.935.500][29876][Info] 	bitrate:      2500
+[000:00:00:05.138.935.500][29876][Info] 	cqp:          0
+[000:00:00:05.138.935.500][29876][Info] 	keyint:       -1
+[000:00:00:05.138.935.500][29876][Info] 	preset:       8
+[000:00:00:05.138.935.500][29876][Info] 	width:        1920
+[000:00:00:05.138.935.500][29876][Info] 	height:       1080
+[000:00:00:05.138.935.500][29876][Info] 	ffmpeg opts:  
+[000:00:00:05.138.935.500][29876][Info] 
+[000:00:00:05.141.384.200][29876][Info] ---------------------------------
+[000:00:00:05.141.729.200][29876][Info] [FFmpeg aac encoder: 'adv_aac0'] bitrate: 160, channels: 2, channel_layout: 3
+[000:00:00:05.141.729.200][29876][Info] 
+[000:00:00:05.148.781.100][29876][Info] [ffmpeg muxer: 'simple_file_output'] Writing file 'C:\Users\adm\Videos\test/2023-06-11 22-24-25.mp4'...
+[000:00:00:13.798.047.500][23320][Info] [ffmpeg muxer: 'simple_file_output'] Output of file 'C:\Users\adm\Videos\test/2023-06-11 22-24-25.mp4' stopped
+[000:00:00:13.798.098.400][23320][Info] Output 'simple_file_output': stopping
+[000:00:00:13.798.111.400][23320][Info] Output 'simple_file_output': Total frames output: 272
+[000:00:00:13.798.120.200][23320][Info] Output 'simple_file_output': Total drawn frames: 519
+[000:00:00:16.079.758.500][23320][Error] [AOM AV1 encoder: 'recording_h264'] Encoding queue duration surpassed 5 seconds, terminating encoder
+[000:00:00:16.079.832.800][23320][Error] Error encoding with encoder 'recording_h264'
+[000:00:00:16.080.985.600][23320][Info] Video stopped, number of skipped frames due to encoding lag: 322/352 (91.5%)
+[000:00:01:50.493.630.400][29876][Error] IPC write to pipe failed with code 109
+[000:00:01:50.520.368.600][13948][Error] IPC write to pipe failed with code 232
+[000:00:01:55.714.584.900][7964][Info] Freeing OBS context data
+[000:00:01:55.714.651.900][7964][Warning] 3 views remain at shutdown

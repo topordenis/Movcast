@@ -1,0 +1,101 @@
+[000:00:00:00.393.263.500][27668][Info] About to reset the video context with the user configuration
+[000:00:00:00.393.384.100][27668][Info] About to stop and reset video
+[000:00:00:00.393.415.400][27668][Info] Video stopped and ready too init
+[000:00:00:00.395.838.200][27668][Info] ---------------------------------
+[000:00:00:00.395.901.100][27668][Info] Initializing D3D11...
+[000:00:00:00.395.925.000][27668][Info] Available Video Adapters: 
+[000:00:00:00.400.156.900][27668][Info] 	Adapter 0: NVIDIA GeForce GTX 960
+[000:00:00:00.400.215.000][27668][Info] 	  Dedicated VRAM: 2105147392
+[000:00:00:00.400.234.200][27668][Info] 	  Shared VRAM:    4267794432
+[000:00:00:00.400.251.300][27668][Info] 	  PCI ID:         10de:1401
+[000:00:00:00.400.726.500][27668][Info] 	  Driver Version: 26.21.14.3200
+[000:00:00:00.400.861.300][27668][Info] 	  output 0:
+[000:00:00:00.400.861.300][27668][Info] 	    name=PHL 223V5
+[000:00:00:00.400.861.300][27668][Info] 	    pos={0, 0}
+[000:00:00:00.400.861.300][27668][Info] 	    size={1920, 1080}
+[000:00:00:00.400.861.300][27668][Info] 	    attached=true
+[000:00:00:00.400.861.300][27668][Info] 	    refresh=60
+[000:00:00:00.400.861.300][27668][Info] 	    space=RGB_FULL_G22_NONE_P709
+[000:00:00:00.400.861.300][27668][Info] 	    sdr_white_nits=80
+[000:00:00:00.400.861.300][27668][Info] 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+[000:00:00:00.400.998.000][27668][Info] 	  output 1:
+[000:00:00:00.400.998.000][27668][Info] 	    name=ASUS MM19S
+[000:00:00:00.400.998.000][27668][Info] 	    pos={1920, 0}
+[000:00:00:00.400.998.000][27668][Info] 	    size={1280, 1024}
+[000:00:00:00.400.998.000][27668][Info] 	    attached=true
+[000:00:00:00.400.998.000][27668][Info] 	    refresh=75
+[000:00:00:00.400.998.000][27668][Info] 	    space=RGB_FULL_G22_NONE_P709
+[000:00:00:00.400.998.000][27668][Info] 	    sdr_white_nits=80
+[000:00:00:00.400.998.000][27668][Info] 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+[000:00:00:00.401.087.400][27668][Info] 	Adapter 1: NVIDIA GeForce GTX 960
+[000:00:00:00.401.094.400][27668][Info] 	  Dedicated VRAM: 2105147392
+[000:00:00:00.401.099.800][27668][Info] 	  Shared VRAM:    4267794432
+[000:00:00:00.401.104.900][27668][Info] 	  PCI ID:         10de:1401
+[000:00:00:00.401.293.800][27668][Info] 	  Driver Version: 26.21.14.3200
+[000:00:00:00.404.507.000][27668][Info] Loading up D3D11 on adapter NVIDIA GeForce GTX 960 (0)
+[000:00:00:00.461.171.200][27668][Info] D3D11 loaded successfully, feature level used: b000
+[000:00:00:00.461.218.300][27668][Info] DXGI increase maximum frame latency success
+[000:00:00:00.461.261.900][27668][Info] D3D11 GPU priority setup success
+[000:00:00:02.179.579.200][27668][Info] ---------------------------------
+[000:00:00:02.179.660.100][27668][Info] video settings reset:
+[000:00:00:02.179.660.100][27668][Info] 	base resolution:   1920x1080
+[000:00:00:02.179.660.100][27668][Info] 	output resolution: 1920x1080
+[000:00:00:02.179.660.100][27668][Info] 	downscale filter:  Bicubic
+[000:00:00:02.179.660.100][27668][Info] 	fps:               60/1
+[000:00:00:02.179.660.100][27668][Info] 	format:            NV12
+[000:00:00:02.179.660.100][27668][Info] 	YUV mode:          Rec. 709/Partial
+[000:00:00:02.179.975.100][27668][Info] NV12 texture support enabled
+[000:00:00:02.179.996.200][27668][Info] P010 texture support not available
+[000:00:00:02.183.107.000][27668][Info] NV12 texture support enabled
+[000:00:00:02.183.147.800][27668][Info] P010 texture support not available
+[000:00:00:02.184.829.900][27668][Info] NV12 texture support enabled
+[000:00:00:02.184.846.300][27668][Info] P010 texture support not available
+[000:00:00:02.186.704.600][27668][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+[000:00:00:02.189.181.500][27668][Warning] [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+[000:00:00:02.192.532.100][27668][Warning] A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+[000:00:00:02.192.615.700][27668][Warning] Failed to initialize module 'decklink.dll'
+[000:00:00:02.219.294.300][27668][Error] [AMF] Unable to load 'amfrt64.dll', error code 126.
+[000:00:00:02.221.404.200][27668][Error] [AMF] AMF Test failed due to one or more errors.
+[000:00:00:02.221.446.800][27668][Warning] Failed to initialize module 'enc-amf.dll'
+[000:00:00:02.222.705.100][27668][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/libcef.dll', not an OBS plugin
+[000:00:00:02.222.835.700][27668][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/libEGL.dll', not an OBS plugin
+[000:00:00:02.223.035.000][27668][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+[000:00:00:02.224.821.000][27668][Warning] Failed to load 'en-US' text for module: 'mediasoup-connector.dll'
+[000:00:00:02.225.361.100][27668][Warning] Failed to load 'en-US' text for module: 'motion-transition.dll'
+[000:00:00:02.238.378.800][27668][Info] [obs-browser]: Version 2.18.5
+[000:00:00:02.238.400.900][27668][Info] [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2591+g4204d54+chromium-103.0.5060.134 (compiled)
+[000:00:00:02.242.233.000][27668][Info] NVENC supported
+[000:00:00:02.243.578.000][27668][Info] [noise suppress]: NVIDIA RTX denoiser disabled, redistributable not found
+[000:00:00:02.244.943.800][27668][Info] [NVIDIA RTX VIDEO FX]: FX disabled, redistributable not found.
+[000:00:00:02.245.670.200][27668][Info] [obs-ndi] hello ! (version 4.7.1)
+[000:00:00:02.245.685.100][27668][Error] [obs-ndi] Error when loading the library.
+[000:00:00:02.245.700.900][27668][Warning] Failed to initialize module 'obs-ndi.dll'
+[000:00:00:02.491.090.400][27668][Info] [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+[000:00:00:02.505.351.100][27668][Info] ---------------------------------
+[000:00:00:02.505.384.600][27668][Info] audio settings reset:
+[000:00:00:02.505.384.600][27668][Info] 	samples per sec: 44100
+[000:00:00:02.505.384.600][27668][Info] 	speakers:        2
+[000:00:00:02.505.384.600][27668][Info] 	max buffering:   1044 milliseconds
+[000:00:00:02.505.384.600][27668][Info] 	buffering type:  dynamically increasing
+[000:00:00:02.508.117.400][27668][Info] About to reset the video context with the user configuration
+[000:00:00:02.508.156.300][27668][Info] About to stop and reset video
+[000:00:00:02.539.462.100][27668][Warning] 3 views remain at shutdown
+[000:00:00:02.539.804.400][27668][Info] Video stopped and ready too init
+[000:00:00:02.539.816.000][27668][Info] ---------------------------------
+[000:00:00:02.539.822.800][27668][Info] video settings reset:
+[000:00:00:02.539.822.800][27668][Info] 	base resolution:   1920x1080
+[000:00:00:02.539.822.800][27668][Info] 	output resolution: 1920x1080
+[000:00:00:02.539.822.800][27668][Info] 	downscale filter:  Bicubic
+[000:00:00:02.539.822.800][27668][Info] 	fps:               60/1
+[000:00:00:02.539.822.800][27668][Info] 	format:            NV12
+[000:00:00:02.539.822.800][27668][Info] 	YUV mode:          Rec. 709/Partial
+[000:00:00:02.539.984.700][27668][Info] NV12 texture support enabled
+[000:00:00:02.539.996.800][27668][Info] P010 texture support not available
+[000:00:00:02.541.438.300][27668][Info] NV12 texture support enabled
+[000:00:00:02.541.490.900][27668][Info] P010 texture support not available
+[000:00:00:02.542.171.100][27668][Info] NV12 texture support enabled
+[000:00:00:02.542.199.100][27668][Info] P010 texture support not available
+[000:00:00:02.543.566.700][27668][Info] Audio monitoring device:
+[000:00:00:02.543.566.700][27668][Info] 	name: Default
+[000:00:00:02.543.566.700][27668][Info] 	id: default
+[000:00:00:02.944.008.100][13872][Info] load_graphics_offsets: Failed to start 'get-graphics-offsets32.exe'

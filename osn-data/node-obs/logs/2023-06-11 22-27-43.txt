@@ -1,0 +1,105 @@
+[000:00:00:00.435.933.200][2484][Info] About to reset the video context with the user configuration
+[000:00:00:00.436.063.700][2484][Info] About to stop and reset video
+[000:00:00:00.436.097.800][2484][Info] Video stopped and ready too init
+[000:00:00:00.438.037.800][2484][Info] ---------------------------------
+[000:00:00:00.438.111.900][2484][Info] Initializing D3D11...
+[000:00:00:00.438.135.200][2484][Info] Available Video Adapters: 
+[000:00:00:00.442.619.000][2484][Info] 	Adapter 0: NVIDIA GeForce GTX 960
+[000:00:00:00.442.772.600][2484][Info] 	  Dedicated VRAM: 2105147392
+[000:00:00:00.442.802.400][2484][Info] 	  Shared VRAM:    4267794432
+[000:00:00:00.442.821.600][2484][Info] 	  PCI ID:         10de:1401
+[000:00:00:00.443.455.300][2484][Info] 	  Driver Version: 26.21.14.3200
+[000:00:00:00.443.654.100][2484][Info] 	  output 0:
+[000:00:00:00.443.654.100][2484][Info] 	    name=PHL 223V5
+[000:00:00:00.443.654.100][2484][Info] 	    pos={0, 0}
+[000:00:00:00.443.654.100][2484][Info] 	    size={1920, 1080}
+[000:00:00:00.443.654.100][2484][Info] 	    attached=true
+[000:00:00:00.443.654.100][2484][Info] 	    refresh=60
+[000:00:00:00.443.654.100][2484][Info] 	    space=RGB_FULL_G22_NONE_P709
+[000:00:00:00.443.654.100][2484][Info] 	    sdr_white_nits=80
+[000:00:00:00.443.654.100][2484][Info] 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+[000:00:00:00.443.851.700][2484][Info] 	  output 1:
+[000:00:00:00.443.851.700][2484][Info] 	    name=ASUS MM19S
+[000:00:00:00.443.851.700][2484][Info] 	    pos={1920, 0}
+[000:00:00:00.443.851.700][2484][Info] 	    size={1280, 1024}
+[000:00:00:00.443.851.700][2484][Info] 	    attached=true
+[000:00:00:00.443.851.700][2484][Info] 	    refresh=75
+[000:00:00:00.443.851.700][2484][Info] 	    space=RGB_FULL_G22_NONE_P709
+[000:00:00:00.443.851.700][2484][Info] 	    sdr_white_nits=80
+[000:00:00:00.443.851.700][2484][Info] 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+[000:00:00:00.443.981.700][2484][Info] 	Adapter 1: NVIDIA GeForce GTX 960
+[000:00:00:00.443.989.700][2484][Info] 	  Dedicated VRAM: 2105147392
+[000:00:00:00.443.997.700][2484][Info] 	  Shared VRAM:    4267794432
+[000:00:00:00.444.003.700][2484][Info] 	  PCI ID:         10de:1401
+[000:00:00:00.444.215.800][2484][Info] 	  Driver Version: 26.21.14.3200
+[000:00:00:00.448.295.000][2484][Info] Loading up D3D11 on adapter NVIDIA GeForce GTX 960 (0)
+[000:00:00:00.507.870.600][2484][Info] D3D11 loaded successfully, feature level used: b000
+[000:00:00:00.507.926.700][2484][Info] DXGI increase maximum frame latency success
+[000:00:00:00.507.963.700][2484][Info] D3D11 GPU priority setup success
+[000:00:00:02.138.611.200][2484][Info] ---------------------------------
+[000:00:00:02.138.646.600][2484][Info] video settings reset:
+[000:00:00:02.138.646.600][2484][Info] 	base resolution:   1920x1080
+[000:00:00:02.138.646.600][2484][Info] 	output resolution: 1920x1080
+[000:00:00:02.138.646.600][2484][Info] 	downscale filter:  Bicubic
+[000:00:00:02.138.646.600][2484][Info] 	fps:               60/1
+[000:00:00:02.138.646.600][2484][Info] 	format:            NV12
+[000:00:00:02.138.646.600][2484][Info] 	YUV mode:          Rec. 709/Partial
+[000:00:00:02.138.828.300][2484][Info] NV12 texture support enabled
+[000:00:00:02.138.838.300][2484][Info] P010 texture support not available
+[000:00:00:02.141.003.100][2484][Info] NV12 texture support enabled
+[000:00:00:02.141.017.000][2484][Info] P010 texture support not available
+[000:00:00:02.142.718.400][2484][Info] NV12 texture support enabled
+[000:00:00:02.142.734.500][2484][Info] P010 texture support not available
+[000:00:00:02.144.907.900][2484][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+[000:00:00:02.147.577.500][2484][Warning] [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+[000:00:00:02.152.887.400][2484][Warning] A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+[000:00:00:02.152.976.900][2484][Warning] Failed to initialize module 'decklink.dll'
+[000:00:00:02.177.627.000][2484][Error] [AMF] Unable to load 'amfrt64.dll', error code 126.
+[000:00:00:02.179.950.500][2484][Error] [AMF] AMF Test failed due to one or more errors.
+[000:00:00:02.180.151.900][2484][Warning] Failed to initialize module 'enc-amf.dll'
+[000:00:00:02.182.348.800][2484][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/libcef.dll', not an OBS plugin
+[000:00:00:02.182.492.700][2484][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/libEGL.dll', not an OBS plugin
+[000:00:00:02.182.651.400][2484][Warning] Skipping module 'D:/repos/mata/electron-react-esbuild/node_modules/obs-studio-node-primary/obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+[000:00:00:02.184.696.900][2484][Warning] Failed to load 'en-US' text for module: 'mediasoup-connector.dll'
+[000:00:00:02.185.180.900][2484][Warning] Failed to load 'en-US' text for module: 'motion-transition.dll'
+[000:00:00:02.195.888.700][2484][Info] [obs-browser]: Version 2.18.5
+[000:00:00:02.195.910.100][2484][Info] [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2591+g4204d54+chromium-103.0.5060.134 (compiled)
+[000:00:00:02.199.861.500][2484][Info] NVENC supported
+[000:00:00:02.201.226.600][2484][Info] [noise suppress]: NVIDIA RTX denoiser disabled, redistributable not found
+[000:00:00:02.202.489.600][2484][Info] [NVIDIA RTX VIDEO FX]: FX disabled, redistributable not found.
+[000:00:00:02.203.289.200][2484][Info] [obs-ndi] hello ! (version 4.7.1)
+[000:00:00:02.203.304.800][2484][Error] [obs-ndi] Error when loading the library.
+[000:00:00:02.203.313.400][2484][Warning] Failed to initialize module 'obs-ndi.dll'
+[000:00:00:02.451.971.000][2484][Info] [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+[000:00:00:02.475.199.700][2484][Info] ---------------------------------
+[000:00:00:02.475.259.900][2484][Info] audio settings reset:
+[000:00:00:02.475.259.900][2484][Info] 	samples per sec: 44100
+[000:00:00:02.475.259.900][2484][Info] 	speakers:        2
+[000:00:00:02.475.259.900][2484][Info] 	max buffering:   1044 milliseconds
+[000:00:00:02.475.259.900][2484][Info] 	buffering type:  dynamically increasing
+[000:00:00:02.480.684.600][2484][Info] About to reset the video context with the user configuration
+[000:00:00:02.480.857.800][2484][Info] About to stop and reset video
+[000:00:00:02.515.874.800][2484][Warning] 3 views remain at shutdown
+[000:00:00:02.516.340.200][2484][Info] Video stopped and ready too init
+[000:00:00:02.516.356.300][2484][Info] ---------------------------------
+[000:00:00:02.516.363.300][2484][Info] video settings reset:
+[000:00:00:02.516.363.300][2484][Info] 	base resolution:   1920x1080
+[000:00:00:02.516.363.300][2484][Info] 	output resolution: 1920x1080
+[000:00:00:02.516.363.300][2484][Info] 	downscale filter:  Bicubic
+[000:00:00:02.516.363.300][2484][Info] 	fps:               60/1
+[000:00:00:02.516.363.300][2484][Info] 	format:            NV12
+[000:00:00:02.516.363.300][2484][Info] 	YUV mode:          Rec. 709/Partial
+[000:00:00:02.516.529.000][2484][Info] NV12 texture support enabled
+[000:00:00:02.516.540.100][2484][Info] P010 texture support not available
+[000:00:00:02.517.394.400][2484][Info] NV12 texture support enabled
+[000:00:00:02.517.413.900][2484][Info] P010 texture support not available
+[000:00:00:02.517.838.900][2484][Info] NV12 texture support enabled
+[000:00:00:02.517.856.100][2484][Info] P010 texture support not available
+[000:00:00:02.518.391.700][2484][Info] Audio monitoring device:
+[000:00:00:02.518.391.700][2484][Info] 	name: Default
+[000:00:00:02.518.391.700][2484][Info] 	id: default
+[000:00:00:02.838.774.000][10924][Info] load_graphics_offsets: Failed to start 'get-graphics-offsets32.exe'
+[000:00:00:03.658.326.800][2484][Error] IPC write to pipe failed with code 109
+[000:00:00:03.689.295.800][9176][Error] IPC write to pipe failed with code 232
+[000:00:00:08.841.441.100][15852][Info] Freeing OBS context data
+[000:00:00:08.841.500.200][15852][Warning] 3 views remain at shutdown
